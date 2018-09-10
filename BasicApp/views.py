@@ -6,8 +6,8 @@ def index(request):
 
 
 def other(request):
-    return render(request, 'BasicApp/index.html')
+    return render(request, 'BasicApp/other.html')
 
 
 def relative(request):
-    return render(request, 'BasicApp\relative_url_templates.html')
+    return render(request, 'BasicApp/relative_url_templates.html')
