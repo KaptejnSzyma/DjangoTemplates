@@ -3,7 +3,7 @@ from django.shortcuts import render
 
 def index(request):
     context_dict = {'text': 'hello_world', 'number': 100}
-    return render(request, 'BasicApp/index.html')
+    return render(request, 'BasicApp/index.html', context_dict)
 
 
 def other(request):
